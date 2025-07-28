@@ -2,10 +2,10 @@
   "name": "riley-brown-landing-page",
   "version": "1.0.0",
   "description": "Minimalist landing page for Riley Brown - AI Educator & VibeCode Co-founder",
-  "main": "index.html",
+  "main": "public/index.html",
   "scripts": {
     "start": "python -m http.server 8000",
-    "build": "echo 'Static site - no build needed'"
+    "build": "cp *.html *.css *.js public/ 2>/dev/null || true"
   },
   "keywords": ["ai", "education", "landing-page", "vibecode"],
   "author": "Created with Claude Code",
